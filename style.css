@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    font-size: 100%;
+    background-color: #ee0039;
+    color: #ffd2de;
+}
+
+/* -------------------------------- Style.Header -------------------------------- */
+header {
+    display: flex;
+    flex-direction: row;
+    padding: 24px 15vw;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-weight: 600;
+}
+.menu a{
+    color: black;
+    justify-items: auto;
+}
+.btn-login {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: #ffd2de;
+    background-color: #161627;
+    height: 35px;
+    width: 80px;
+    border: 1.5px solid black;
+    font-weight: 600;
+    fill: #ffd2de;
+    border-radius: 5px;
+}
+
+/* -------------------------------- Style.SectionMain -------------------------------- */
+.section-main {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 10vw 15vw;
+}
+.content-main {
+    width: 30%;
+}
+.text-main {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+.btn-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: #ffd2de;
+    background-color: #161627;
+    border: none;
+    height: 40px;
+    width: 150px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.img-main {
+    width: 50%;
+    height: 250px;
+}
+
+/* -------------------------------- Style.SectionTools -------------------------------- */
+.section-tools {
+    display: flex;
+    justify-content: space-between;
+    background-color: #161627;
+    padding: 10vw 15vw;
+    align-items: center;
+}
+.content-tool {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.card-tool {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    align-content: space-between;
+    padding: 20px;
+    width: 150px;
+    background-color: #ee0039;
+    border-radius: 10px;
+}
+.card-tool img {
+    height: 35px;
+    width: 35px;
+
+}
+.card-tool p {
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+.slogan-tool {
+    text-align: right;
+    width: 30%;
+}
+
+/* -------------------------------- Style.SectionFeedback -------------------------------- */
+.section-feedback {
+    padding: 5vw 15vw;
+    align-items: center;
+}
+.section-feedback h2 {
+    align-items: center;
+    width: 50%;
+}
+.content-feedback {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 100px 0;
+}
+.card-feedback {
+    width: 270px;
+    text-align: center;
+}
+.card-feedback svg{
+    height: 25px;
+    margin: 10px 0;
+}
+.card-feedback p {
+    margin: 10px;
+    font-size: 0.9rem;
+}
+
+/* -------------------------------- Style.SectionStats -------------------------------- */
+.section-stats {
+    display: flex;
+    padding: 2vw 15vw;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #161627;
+}
+
+/* -------------------------------- Style.SectionPlans -------------------------------- */
+.section-plans {
+    padding: 5vw 15vw;
+}
+.content-plans {
+    display: flex;
+    justify-content: space-between;
+    padding: 5vw 0;
+}
+.card-plan {
+    text-align: center;
+    padding: 1.5vw 2.0vw;
+    background-color: #161627;
+    border-radius: 10px;
+}
+.card-plan button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ee0039;
+    color: #ffd2de;
+    font-weight: 600;
+    font-size: 1rem;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    width: 100%;
+}
+.card-plan img {
+    height: 20px;
+}
+.card-plan span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+.card-plan ul {
+    padding: 0 30px;
+}
+.card-plan ul li {
+    text-align: left;
+}
+.card-plan h4 span {
+    padding: 20px 0;
+}
+
+/* -------------------------------- Style.Footer -------------------------------- */
+footer {
+    background-color: #161627;
+    color: #ffd2de;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 5vw 15vw;
+    font-size: 0.8rem;
+}
+.content-resume {
+    width: 30%;
+}
